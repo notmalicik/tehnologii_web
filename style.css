@@ -74,11 +74,3 @@ section ul li {
 section ul li a {
     text-decoration: underline;
 }
-
-.img {
-    position: static;
-    width: 1325px;
-    height: 1000px;
-    margin-left: 50px;
-    object-fit: cover;
-}
