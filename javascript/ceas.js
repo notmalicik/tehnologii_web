@@ -15,8 +15,8 @@ function showTime() {
     m = (m < 10) ? "0" + m : m;
 
     var time = h + ":" + m;
-    document.getElementById("MyClockDisplay").innerText = time;
-    document.getElementById("MyClockDisplay").textContent = time;
+    document.getElementById("AfisareaCeasului").innerText = time;
+    document.getElementById("AfisareaCeasului").textContent = time;
 
     setTimeout(showTime, 1000);
 
