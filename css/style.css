@@ -1,33 +1,31 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
 nav ul li {
-    height: 40px;
-    width: 150px;
-    font-size: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 30px;
+    width: 160px;
+    font-size: 30px;
+    padding: 18px 0;
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
 }
 
 nav ul li a:hover {
-    color: #b68a2a;
+    background-color: #b68a2a;
+    color: #ffffff;
     transition: 0.2s;
-}
-
-.back {
-    position: fixed;
-    right: 32px;
-    width: 150px;
-    margin-top: 16px;
-    border-radius: 15px;
-    background-color: white;
-    opacity: 0.8;
+    border-radius: 4px;
 }
 
 nav {
     position: fixed;
-    width: 225px;
-    margin-top: 8px;
-    margin-left: 8px;
-    background-color: white;
-    border-radius: 15px;
-    opacity: 0.8;
+    width: 100%;
+    color: black;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: black;
 }
 
 h1 {
@@ -39,8 +37,8 @@ h2 {
 }
 
 section {
-    margin-left: 250px;
-    margin-right: 13%;
+    margin-left: 15%;
+    margin-right: 15%;
     /* border: 1px solid; */
 }
 
@@ -50,6 +48,7 @@ a {
 }
 
 .cimg {
+    margin-top: 70px;
     position: static;
     border-radius: 10px;
     width: 100%;
