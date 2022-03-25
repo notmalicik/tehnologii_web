@@ -3,13 +3,22 @@
     padding: 0%;
 }
 
+.font {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.map {
+    border-color: #000000;
+    border-style: solid;
+    background-color: rgba(0, 163, 73, 0.301);
+}
+
 nav ul li {
     height: 30px;
     width: 160px;
     font-size: 30px;
     padding: 18px 0;
     display: inline-block;
-    font-family: 'Bebas Neue', cursive;
 }
 
 nav ul li a:hover {
