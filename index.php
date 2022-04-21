@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html>
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Chișinău</title>
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="icon" href="/img/icon.jpg" type="image/x-icon">
@@ -14,11 +14,12 @@
         <center>
             <nav id="fixed-header">
                 <ul class="font" TYPE=none>
-                    <li><a class="chisinau" href="index.html"> Chișinău</a></li>
+                    <li><a class="chisinau" href="index.php"> Chișinău</a></li>
                     <li><a href="pagini/istorie.html"> Istorie</a></li>
                     <li><a href="pagini/demografie.html">Demografie</a></li>
                     <li><a href="pagini/cultura.html">Cultura</a></li>
                     <li><a href="pagini/arhitectura.html">Arhitectura</a></li>
+                    <li><a href="pagini/contact.php">Contact</a></li>
                 </ul>
             </nav>
         </center>
@@ -27,6 +28,12 @@
         <a href="img/primaria.jpg"><img class="cimg" src="img/primaria.jpg" alt="Primăria"></a>
     </center>
     <section>
+    <form action="welcome.php" method="post">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
+        </form>
         <center>
             <h1>Chișinău</h1>
         </center>
