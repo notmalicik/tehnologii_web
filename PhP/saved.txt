@@ -1,0 +1,5 @@
+----------------------------------
+Numele: Dumitru
+E-mailul: sda@mail.ru
+Problema: dadadada
+----------------------------------

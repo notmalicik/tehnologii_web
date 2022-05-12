@@ -43,7 +43,8 @@ nav ul li {
 .cultura,
 .demografie,
 .istorie,
-.arhitectura {
+.arhitectura,
+.contact {
     background-color: #b68a2a;
     color: #ffffff;
     border-radius: 8px;

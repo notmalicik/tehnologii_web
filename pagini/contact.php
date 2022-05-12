@@ -6,7 +6,10 @@
     
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/animation.css">
+    <link rel="stylesheet" href="/css/form.css">
     <link rel="icon" href="/img/icon.jpg" type="image/x-icon">
+
+
 </head>
 
 <body>
@@ -14,12 +17,12 @@
         <center>
             <nav id="fixed-header">
                 <ul class="font" TYPE=none>
-                    <li><a class="chisinau" href="/index.php"> Chișinău</a></li>
+                    <li><a href="/index.php"> Chișinău</a></li>
                     <li><a href="istorie.html"> Istorie</a></li>
                     <li><a href="demografie.html">Demografie</a></li>
                     <li><a href="cultura.html">Cultura</a></li>
                     <li><a href="arhitectura.html">Arhitectura</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a class="contact" href="contact.php">Contact</a></li>
                 </ul>
             </nav>
         </center>
@@ -27,25 +30,38 @@
     <center>
         <a href="/img/primaria.jpg"><img class="cimg" src="/img/primaria.jpg" alt="Primăria"></a>
     </center>
-    <center>
-    <section class="submit">
-        <form action="/welcome.php" method="post">
-            Nume: <input type="text" name="name"><br>
-            E-mail: <input type="email" name="email"><br>
-            <input type="submit" value="Trimite">
-        </form>
-</center>
+    <section>
+ <form method="post" id="contact" action="">
+        <p>
+            <label for="name">Numele</label>
+            <input type="text" name="nume" placeholder="Nume">
+        </p>
+        <p>
+            <label for="email">Emailul</label>
+            <input type="text" id="email" name="email" placeholder="E-mailul">
+        </p>
+        <p>
+            <label for="comment">Mesajul dvs.</label>
+            <textarea name="comment" placeholder="Comentariu" rows="4" cols="50"></textarea>
+        </p>
+         <input type="submit" id="submit" name="submit" value="Trimite">
+         <p>
+         </p>
+    </form>
 </section>
     <br>
-    <button onclick="topFunction()" id="myBtn" title="ȘUȘ"><img class="buton" src="img/arrow.png"></button>
+    <button onclick="topFunction()" id="myBtn" title="ȘUȘ"><img class="buton" src="/img/arrow.png"></button>
 
     <div class="footer">
         <footer>
             <p>Site creat de <b>Dumitru Malicic</b> IA-211 &copy</p>
         </footer>
     </div>
-    <script src="/javascript/ceas.js"></script>
     <script src="/javascript/top.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="/javascript/validate.js"></script>
 </body>
 
 </html>
