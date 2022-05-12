@@ -26,8 +26,33 @@ $(document).ready(function() {
             email: "Introduceți un E-mail valid"
         },
 
-        submitHandler: function(form) {
-            form.submit();
-        }
+        // submitHandler: function(form) {
+        //     // form.submit();
+        //     req("/Php/action.php", "response");
+        // }
     });
 });
+$("#submit").click(() => {
+    $("#contact").valid();
+    nume = $("#nume").val();
+    email = $("#email").val();
+    comment = $("#comment").val();
+    req("/Php/action.php?nume=" + nume + "&email=" + email + "&comment=" + comment, "response");
+    $("#contact").trigger("reset");
+});
+// AJAX
+function req(url, div) {
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+        document.getElementById(div).innerHTML = this.responseText;
+
+        if (this.responseText == "Mesajul a fost trimis cu succes") {
+            $("#" + div).css("color", "green");
+        } else {
+            $("#" + div).css("color", "red");
+        }
+
+    }
+    xhttp.open("GET", url, true);
+    xhttp.send();
+}

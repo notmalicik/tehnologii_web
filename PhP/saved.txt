@@ -3,3 +3,43 @@ Numele: Dumitru
 E-mailul: sda@mail.ru
 Problema: dadadada
 ----------------------------------
+----------------------------------
+Numele: asasd
+E-mailul: asd@mail.ru
+Problema: dsasda
+----------------------------------
+----------------------------------
+Numele: Dumitru
+E-mailul: malicik02@gmail.com
+Problema: il iubesc pe petrica
+----------------------------------
+----------------------------------
+Numele: Dumitru
+E-mailul: malicik02@gmail.com
+Problema: il iubesc pe petrica
+----------------------------------
+----------------------------------
+Numele: Dumitru
+E-mailul: malicik02@gmail.com
+Problema: dasdsad
+----------------------------------
+----------------------------------
+Numele: Dumitru
+E-mailul: malicik02@gmail.com
+Problema: 
+----------------------------------
+----------------------------------
+Numele: 
+E-mailul: malicik02@gmail.com
+Problema: 
+----------------------------------
+----------------------------------
+Numele: Dumitru
+E-mailul: malicik02@gmail.com
+Problema: imi place programrea
+----------------------------------
+----------------------------------
+Numele: Dumitru
+E-mailul: malicik02@gmail.com
+Problema: asdasda
+----------------------------------

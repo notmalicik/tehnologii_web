@@ -1,5 +1,5 @@
-.submit {
-    padding: 50px;
+#response {
+    text-align: center;
 }
 
 * {
@@ -44,7 +44,8 @@ nav ul li {
 .demografie,
 .istorie,
 .arhitectura,
-.contact {
+.contact,
+.reg {
     background-color: #b68a2a;
     color: #ffffff;
     border-radius: 8px;

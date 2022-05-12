@@ -23,8 +23,9 @@
                     <li><a href="cultura.html">Cultura</a></li>
                     <li><a href="arhitectura.html">Arhitectura</a></li>
                     <li><a href="login.php">Logare</a></li>
-                    <li><a href="register.php">Înregistrare</a></li>
-                    <li><a class="contact" href="contact.php">Contact</a></li>
+                    <li><a class="reg" href="register.php">Înregistrare</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    
                 </ul>
             </nav>
         </center>
@@ -33,23 +34,21 @@
         <a href="/img/primaria.jpg"><img class="cimg" src="/img/primaria.jpg" alt="Primăria"></a>
     </center>
     <section>
-        <div id="response">
-
-        </div>
- <form method="get" id="contact">
-        <p>
-            <label for="name">Numele</label>
-            <input id="nume" type="text" name="nume" placeholder="Nume">
-        </p>
+        <div id="response"></div>
+ <form method="get" id="reg" action="">
         <p>
             <label for="email">Emailul</label>
-            <input id="email" type="text" id="email" name="email" placeholder="E-mailul">
+            <input id="email" type="email" name="email" placeholder="Email">
         </p>
         <p>
-            <label for="comment">Mesajul dvs.</label>
-            <textarea id="comment" name="comment" placeholder="Comentariu" rows="4" cols="50"></textarea>
+            <label for="parola">Parola</label>
+            <input id="parola" type="password" id="parola" name="parola" placeholder="Parola">
         </p>
-         <input type="button" id="submit" name="submit" value="Trimite">
+        <p>
+            <label for="parola_confirm">Confirmare parolă</label>
+            <input id="parola_confirm" type="password" name="parola_confirm" placeholder="Confirmare parolă">
+        </p>
+         <input type="button" id="submit" name="submit" value="Înregistrează-te">
          <p>
          </p>
     </form>
@@ -66,7 +65,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
-    <script src="/javascript/validate.js"></script>
+    <script src="/javascript/validReg.js"></script>
 </body>
 
 </html>
