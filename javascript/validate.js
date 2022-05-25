@@ -40,19 +40,3 @@ $("#submit").click(() => {
     req("/Php/action.php?nume=" + nume + "&email=" + email + "&comment=" + comment, "response");
     $("#contact").trigger("reset");
 });
-// AJAX
-function req(url, div) {
-    const xhttp = new XMLHttpRequest();
-    xhttp.onload = function() {
-        document.getElementById(div).innerHTML = this.responseText;
-
-        if (this.responseText == "Mesajul a fost trimis cu succes") {
-            $("#" + div).css("color", "green");
-        } else {
-            $("#" + div).css("color", "red");
-        }
-
-    }
-    xhttp.open("GET", url, true);
-    xhttp.send();
-}

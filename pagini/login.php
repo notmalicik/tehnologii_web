@@ -37,7 +37,7 @@
         <div id="response">
             
         </div>
- <form method="get" id="login">
+ <form method="get" id="login" action="/PhP/actionLogin.php">
         <p>
             <label for="email">Emailul</label>
             <input id="email" type="email" name="email" placeholder="Email">
@@ -46,7 +46,7 @@
             <label for="parola">Parola</label>
             <input id="parola" type="password" id="parola" name="parola" placeholder="Parola">
         </p>
-         <input type="button" id="submit" name="submit" value="Logare">
+         <input type="submit" id="submit" name="submit" value="Logare">
          <p>
          </p>
     </form>

@@ -27,19 +27,3 @@ $("#submit").click(() => {
     req("/PhP/actionLogin.php?email=" + email + "&parola=" + parola, "response");
     $("#login").trigger("reset");
 });
-// AJAX
-function req(url, div) {
-    const xhttp = new XMLHttpRequest();
-    xhttp.onload = function() {
-        document.getElementById(div).innerHTML = this.responseText;
-
-        if (this.responseText == "Datele au fost transmise cu succes") {
-            $("#" + div).css("color", "green");
-        } else {
-            $("#" + div).css("color", "red");
-        }
-
-    }
-    xhttp.open("GET", url, true);
-    xhttp.send();
-}

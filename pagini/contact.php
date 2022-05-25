@@ -36,7 +36,7 @@
         <div id="response">
 
         </div>
- <form method="get" id="contact">
+ <form method="get" id="contact" action="/PhP/action.php">
         <p>
             <label for="name">Numele</label>
             <input id="nume" type="text" name="nume" placeholder="Nume">
@@ -49,7 +49,7 @@
             <label for="comment">Mesajul dvs.</label>
             <textarea id="comment" name="comment" placeholder="Comentariu" rows="4" cols="50"></textarea>
         </p>
-         <input type="button" id="submit" name="submit" value="Trimite">
+         <input type="submit" id="submit" name="submit" value="Trimite">
          <p>
          </p>
     </form>

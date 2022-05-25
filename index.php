@@ -20,9 +20,9 @@
                     <li><a href="pagini/cultura.html">Cultura</a></li>
                     <li><a href="pagini/arhitectura.html">Arhitectura</a></li>
                     <li><a href="pagini/contact.php">Contact</a></li>
-                    <li><a href="login.php">Logare</a></li>
-                    <li><a href="register.php">Înregistrare</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="pagini/login.php">Logare</a></li>
+                    <li><a href="pagini/register.php">Înregistrare</a></li>
+                    <li><a href="pagini/contact.php">Contact</a></li>
                 </ul>
             </nav>
         </center>

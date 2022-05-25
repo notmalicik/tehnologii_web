@@ -35,7 +35,7 @@
     </center>
     <section>
         <div id="response"></div>
- <form method="get" id="reg">
+ <form method="get" id="reg" action="/PhP/actionReg.php">
         <p>
             <label for="email">Emailul</label>
             <input id="email" type="email" name="email" placeholder="Email">

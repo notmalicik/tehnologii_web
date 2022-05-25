@@ -48,3 +48,8 @@ Numele: Dumitru
 E-mailul: malicik02@gmail.com
 Problema: adasdasdas
 ----------------------------------
+----------------------------------
+Numele: Dumitru
+E-mailul: dmalicik@gmail.com
+Problema: dasdasd
+----------------------------------
